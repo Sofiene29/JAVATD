@@ -15,7 +15,7 @@ public class Client {
         writer.println("Message sent to the client");
         BufferedReader reader = new BufferedReader(new InputStreamReader(in));
         String line = reader.readLine();
-        System.out.println("The server sent "+line);// reads a line of text
+        System.out.println("The server sent   "+line);// reads a line of text
 
 
 
